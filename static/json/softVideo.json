@@ -1,0 +1,67 @@
+{
+  "videoSlide":[
+    {
+      "soId": "123213213221",
+      "itdn": "1",
+      "src": "https://pic.huke88.com/image/000/000/000/BEA1A49E-BC50-852D-E18C-1969A1351170.png",
+      "title": "PhotoShop",
+      "label": "HOT",
+      "bgColor": "bgColor3",
+      "number": "32"
+    }, {
+      "soId": "31232131221",
+      "itdn": "1",
+      "src": "https://pic.huke88.com/image/000/000/000/C5BDCDC8-D3A1-1236-6DCD-26E778FD3C59.png",
+      "title": "Illustrator",
+      "label": "HOT",
+      "bgColor": "bgColor3",
+      "number": "29"
+    }, {
+      "soId": "888",
+      "itdn": "1",
+      "src": "https://pic.huke88.com/image/000/000/000/C622576D-9B51-AE26-0944-5E386C4DEDBB.png",
+      "title": "C4D",
+      "label": "HOT",
+      "bgColor": "bgColor3",
+      "number": "66"
+    }, {
+      "soId": "http://www.aisoubai.com/",
+      "itdn": "1",
+      "src": "https://pic.huke88.com/image/000/000/000/03992C48-E9D5-C4DE-E375-6FFE557C8124.png",
+      "title": "Final Cut ProX",
+      "label": "NEW",
+      "bgColor": "bgColor2",
+      "number": "15"
+    }, {
+      "soId": "http://www.aisoubai.com/",
+      "itdn": "1",
+      "src": "https://pic.huke88.com/image/000/000/000/8D018112-CB68-1A37-2202-EE9B5272C7B6.jpg",
+      "title": "Vegas Pro 14",
+      "label": "NEW",
+      "bgColor": "bgColor2",
+      "number": "51"
+    }, {
+      "soId": "http://www.aisoubai.com/",
+      "itdn": "1",
+      "src": "https://pic.huke88.com/image/000/000/000/42CCF6B0-AD38-EEA2-0DBD-72EE3A8B7382.png",
+      "title": "EDIUS Pro 9",
+      "label": "NEW",
+      "bgColor": "bgColor2",
+      "number": "18"
+    }, {
+      "soId": "http://www.aisoubai.com/",
+      "itdn": "1",
+      "src": "https://pic.huke88.com/image/000/000/000/C1CC8411-B7FB-6B9F-86FB-D2B4E4A8E062.png",
+      "title": "Principle",
+      "bgColor": "bgColor2",
+      "number": "17"
+    }, {
+      "soId": "http://www.aisoubai.com/",
+      "itdn": "1",
+      "src": "https://pic.huke88.com/image/000/000/000/9E0DD2C4-A336-CDF0-A9A8-0D47F191BA6B.png",
+      "title": "Pro/Engineer",
+      "bgColor": "bgColor2",
+      "number": "93"
+    }
+  ]
+}

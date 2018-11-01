@@ -1,0 +1,413 @@
+{
+  "category": [
+    {
+      "name": "排序",
+      "items": [
+        {
+          "name": "最新教程",
+          "active": true
+        },
+        {
+          "name": "最多学习",
+          "active": false
+        }
+      ]
+    },
+    {
+      "name": "分类",
+      "items": [
+        {
+          "name": "字体设计",
+          "identity": 1,
+          "active": true
+        },
+        {
+          "name": "海报设计",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "软件入门",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "综合教程",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "C4D教程",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "图像合成",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "产品精修",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "摄影艺术",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "影视动画",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "职业发展",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "人像精修",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "绘画插画",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "店铺装修",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "室内设计",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "系列课",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "视频评改",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "海外教程",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "品牌设计",
+          "identity": 1,
+          "active": false
+        },
+        {
+          "name": "UI设计",
+          "identity": 1,
+          "active": false
+        }
+      ]
+    },
+    {
+      "name": "场景",
+      "items": [
+        {
+          "name": "全部",
+          "identity": 2,
+          "active": true
+        },
+        {
+          "name": "电商促销",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "节日气节",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "字母数字",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "文化创意",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "教师节",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "招聘",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "影视游戏",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "样机",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "新年",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "校园青春",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "周杰伦",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "GIF字效",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "情人节",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "夏天",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "开学季",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "周年",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "婚庆",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "促销",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "双11",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "国庆",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "中秋节",
+          "identity": 2,
+          "active": false
+        },
+        {
+          "name": "其他",
+          "identity": 2,
+          "active": false
+        }
+      ]
+    },
+    {
+      "name": "风格",
+      "items": [
+        {
+          "name": "全部",
+          "identity": 3,
+          "active": true
+        },
+        {
+          "name": "中国风",
+          "identity": 3,
+          "active": false
+        },
+        {
+          "name": "酷炫",
+          "identity": 3,
+          "active": false
+        },
+        {
+          "name": "手绘",
+          "identity": 3,
+          "active": false
+        },
+        {
+          "name": "矢量",
+          "identity": 3,
+          "active": false
+        },
+        {
+          "name": "黑白",
+          "identity": 3,
+          "active": false
+        },
+        {
+          "name": "炫彩",
+          "identity": 3,
+          "active": false
+        },
+        {
+          "name": "清新",
+          "identity": 3,
+          "active": false
+        },
+        {
+          "name": "可爱卡通",
+          "identity": 3,
+          "active": false
+        },
+        {
+          "name": "拟物",
+          "identity": 3,
+          "active": false
+        },
+        {
+          "name": "复古",
+          "identity": 3,
+          "active": false
+        },
+        {
+          "name": "其他",
+          "identity": 3,
+          "active": false
+        }
+      ]
+    },
+    {
+      "name": "内容",
+      "items": [
+        {
+          "name": "全部",
+          "identity": 4,
+          "active": true
+        },
+        {
+          "name": "毛笔字",
+          "identity": 4,
+          "active": false
+        },
+        {
+          "name": "立体字",
+          "identity": 4,
+          "active": false
+        },
+        {
+          "name": "金属字",
+          "identity": 4,
+          "active": false
+        },
+        {
+          "name": "金色字",
+          "identity": 4,
+          "active": false
+        },
+        {
+          "name": "粉笔字",
+          "identity": 4,
+          "active": false
+        },
+        {
+          "name": "灯光字",
+          "identity": 4,
+          "active": false
+        },
+        {
+          "name": "火焰字",
+          "identity": 4,
+          "active": false
+        },
+        {
+          "name": "折纸字",
+          "identity": 4,
+          "active": false
+        },
+        {
+          "name": "星辰字",
+          "identity": 4,
+          "active": false
+        },
+        {
+          "name": "草地字",
+          "identity": 4,
+          "active": false
+        },
+        {
+          "name": "烟雾字",
+          "identity": 4,
+          "active": false
+        },
+        {
+          "name": "图形字",
+          "identity": 4,
+          "active": false
+        },
+        {
+          "name": "其他",
+          "identity": 4,
+          "active": false
+        }
+      ]
+    },
+    {
+      "name": "软件",
+      "items": [
+        {
+          "name": "全部",
+          "identity": 5,
+          "active": true
+        },
+        {
+          "name": "PS",
+          "identity": 5,
+          "active": false
+        },
+        {
+          "name": "AI",
+          "identity": 5,
+          "active": false
+        },
+        {
+          "name": "CDR",
+          "identity": 5,
+          "active": false
+        },
+        {
+          "name": "C4D",
+          "identity": 5,
+          "active": false
+        },
+        {
+          "name": "AE",
+          "identity": 5,
+          "active": false
+        }
+      ]
+    }
+  ],
+  "condition": []
+}

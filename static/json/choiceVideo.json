@@ -1,0 +1,53 @@
+{
+  "videoSlide":[
+    {
+      "soId": "http://www.aisoubai.com/",
+      "src": "/static/images/loginIcon.png",
+      "title": "ps软件安装及介绍1",
+      "label": "初级练习",
+      "number": "11"
+    }, {
+      "soId": "http://www.aisoubai.com/",
+      "src": "/static/images/loginIcon.png",
+      "title": "C4D软件入门2",
+      "label": "中级拔高",
+      "number": "150"
+    }, {
+      "soId": "http://www.aisoubai.com/",
+      "src": "/static/images/loginIcon.png",
+      "title": "设计师应如何寻找素材3",
+      "label": "拔苗助长",
+      "number": "100"
+    }, {
+      "soId": "http://www.aisoubai.com/",
+      "src": "/static/images/loginIcon.png",
+      "title": "UI设计进阶指南4",
+      "label": "新手入门",
+      "number": "9999"
+    }, {
+      "soId": "http://www.aisoubai.com/",
+      "src": "/static/images/loginIcon.png",
+      "title": "字体设计中的正负形5",
+      "label": "新手入门",
+      "number": "8665"
+    }, {
+      "soId": "http://www.aisoubai.com/",
+      "src": "/static/images/loginIcon.png",
+      "title": "界面设计规范6",
+      "label": "拔苗助长",
+      "number": "6666"
+    }, {
+      "soId": "http://www.aisoubai.com/",
+      "src": "/static/images/loginIcon.png",
+      "title": "饮品广告海报合成7",
+      "label": "初级练习",
+      "number": "12"
+    }, {
+      "soId": "http://www.aisoubai.com/",
+      "src": "/static/images/loginIcon.png",
+      "title": "中秋与玉兔望月8",
+      "label": "中级拔高",
+      "number": "8"
+    }
+  ]
+}

@@ -1,0 +1,733 @@
+{
+  "ctgList":[
+    {
+      "title": "第一章 PS入门PS入门PS入门PS入门PS入门PS入门",
+      "items": [
+        {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": true,
+          "detail": "课时1-软件入门介绍",
+          "dpy": false,
+          "conList": [
+            {
+              "title": "PS-如何下载软件并安装",
+              "state": false,
+              "link": "PS --- 666"
+            }, {
+              "title": "PS-111",
+              "state": false,
+              "link": "PSWEB - 999"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/content/it/Web?asb=Topic&nmb=1",
+          "state": false,
+          "dpy": false,
+          "detail": "课时2-界面和工作区",
+          "conList": []
+        }, {
+          "method": "http://aisoubai.com/content/it/Web",
+          "state": false,
+          "dpy": false,
+          "detail": "课时3-首选项设置",
+          "conList": []
+        }, {
+          "method": "http://aisoubai.com/components/detail/Travel",
+          "state": false,
+          "dpy": false,
+          "detail": "课时4-文件的新建存储与格式",
+          "conList": []
+        }, {
+          "method": "http://aisoubai.com/",
+          "state": false,
+          "dpy": false,
+          "detail": "课时5-软件常用快捷键（上）",
+          "conList": []
+        }, {
+          "method": "http://aisoubai.com/",
+          "state": false,
+          "dpy": false,
+          "detail": "课时6-软件常用快捷键（下）",
+          "conList": []
+        }, {
+          "method": "http://aisoubai.com/",
+          "detail": "课时7-图层",
+          "state": false,
+          "dpy": false,
+          "label": "练习题",
+          "conList": [
+            {
+              "title": "PS-图层蒙版",
+              "state": false,
+              "link": "一条"
+            }, {
+              "title": "PS-剪切蒙版和快速蒙版",
+              "state": true,
+              "link": "第二条"
+            }, {
+              "title": "PS-色块拼贴人像效果",
+              "state": false,
+              "link": "到第三了"
+            }, {
+              "title": "PS-制作彩色瞳孔特效",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-城市环绕文字海报",
+              "state": false,
+              "link": "这是最后"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "state": false,
+          "dpy": false,
+          "detail": "课时8-矢量和位图",
+          "conList": []
+        }
+      ]
+    }, {
+      "title": "第二章 常用工具的操作与运用",
+      "items": [
+        {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时9-移动工具",
+          "conList": [
+            {
+              "title": "PS-移动工具制作创意数字9",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-绘制中国风窗户",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-黑白键艺术创想插画",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-海滨小城矢量风景插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-重影文字艺术效果",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-水滴元素文字海报制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-自由创意插画制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-环保控烟插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-颜色填充-色块箭头海报",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时10-选区工具组",
+          "conList": [
+            {
+              "title": "PS-移动工具制作创意数字9",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-绘制中国风窗户",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-黑白键艺术创想插画",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-海滨小城矢量风景插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-重影文字艺术效果",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-水滴元素文字海报制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-自由创意插画制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-环保控烟插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-颜色填充-色块箭头海报",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "state": false,
+          "dpy": false,
+          "detail": "课时11-裁剪工具",
+          "conList": []
+        }, {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时12-笔刷工具",
+          "conList": [
+            {
+              "title": "PS-移动工具制作创意数字9",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-绘制中国风窗户",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-黑白键艺术创想插画",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-海滨小城矢量风景插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-重影文字艺术效果",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-水滴元素文字海报制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-自由创意插画制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-环保控烟插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-颜色填充-色块箭头海报",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时13-渐变工具",
+          "conList": [
+            {
+              "title": "PS-移动工具制作创意数字9",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-绘制中国风窗户",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-黑白键艺术创想插画",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-海滨小城矢量风景插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-重影文字艺术效果",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-水滴元素文字海报制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-自由创意插画制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-环保控烟插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-颜色填充-色块箭头海报",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "state": false,
+          "dpy": false,
+          "detail": "课时14-减淡加深海绵工具",
+          "conList": []
+        }, {
+          "method": "http://aisoubai.com/",
+          "detail": "课时15-钢笔工具",
+          "state": false,
+          "dpy": false,
+          "label": "练习题",
+          "conList": [
+            {
+              "title": "PS-移动工具制作创意数字9",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-绘制中国风窗户",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-黑白键艺术创想插画",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-海滨小城矢量风景插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-重影文字艺术效果",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-水滴元素",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时16-字符工具",
+          "conList": [
+            {
+              "title": "PS-移动工具制作创意数字9",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-绘制中国风窗户",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-黑白键艺术创想插画",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时17-形状工具（布尔运算）",
+          "conList": [
+            {
+              "title": "PS-移动工具制作创意数字9",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-黑白键艺术创想插画",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-自由创意插画制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-环保控烟插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-颜色填充-色块箭头海报",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时18-模糊锐化涂抹工具",
+          "conList": [
+            {
+              "title": "PS-绘制中国风窗户",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-黑白键艺术创想插画",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-自由创意插画制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-环保控烟插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-颜色填充-色块箭头海报",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时19-修复画笔工具",
+          "conList": [
+            {
+              "title": "PS-移动工具制作创意数字9",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-绘制中国风窗户",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-黑白键艺术创想插画",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-海滨小城矢量风景插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-重影文字艺术效果",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-水滴元素文字海报制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-环保控烟插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-颜色填充-色块箭头海报",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }
+      ]
+    }, {
+      "title": "第三章 常用功能和面板",
+      "items": [
+        {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时20-自由变换",
+          "conList": [
+            {
+              "title": "PS-移动工具制作创意数字9",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-绘制中国风窗户",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-黑白键艺术创想插画",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-海滨小城矢量风景插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-重影文字艺术效果",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-水滴元素文字海报制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-自由创意插画制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-环保控烟插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-颜色填充-色块箭头海报",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时21-图层叠加模式",
+          "conList": [
+            {
+              "title": "PS-移动工具制作创意数字9",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-绘制中国风窗户",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-黑白键艺术创想插画",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-海滨小城矢量风景插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-重影文字艺术效果",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-水滴元素文字海报制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-自由创意插画制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-环保控烟插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-颜色填充-色块箭头海报",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时22-图层混合模式",
+          "conList": [
+            {
+              "title": "PS-环保控烟插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-色块箭头海报",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时23-调整功能",
+          "conList": [
+            {
+              "title": "PS-移动工具制作创意数字9",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-绘制中国风窗户",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-颜色填充-色块箭头海报",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "state": false,
+          "dpy": false,
+          "detail": "课时24-滤镜",
+          "conList": []
+        }, {
+          "method": "http://aisoubai.com/",
+          "detail": "课时25-通道",
+          "state": false,
+          "dpy": false,
+          "label": "练习题",
+          "conList": [
+            {
+              "title": "PS-海滨小城矢量风景插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-重影文字艺术效果",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-水滴元素文字海报制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-自由创意插画制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-环保控烟插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-颜色填充-色块箭头海报",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时26-3D功能",
+          "conList": [
+            {
+              "title": "PS-移动工具制作创意数字9",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-绘制中国风窗户",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-黑白键艺术创想插画",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-海滨小城矢量风景插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-重影文字艺术效果",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-水滴元素文字海报制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-自由创意插画制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-环保控烟插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-颜色填充-色块箭头海报",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "state": false,
+          "dpy": false,
+          "detail": "课时27-直方图",
+          "conList": []
+        }, {
+          "method": "http://aisoubai.com/",
+          "state": false,
+          "dpy": false,
+          "detail": "课时28-时间轴",
+          "conList": []
+        }, {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时29-动作",
+          "conList": [
+            {
+              "title": "PS-移动工具制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-绘制中国风窗户",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-黑白键艺术创想插画",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-环保控烟插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-颜色填充",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }, {
+          "method": "http://aisoubai.com/",
+          "label": "练习题",
+          "state": false,
+          "dpy": false,
+          "detail": "课时30-橡皮工具",
+          "conList": [
+            {
+              "title": "PS-黑白键艺术创想插画",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-海滨小城矢量风景插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-重影文字艺术效果",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-自由创意插画制作",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-环保控烟插画绘制",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }, {
+              "title": "PS-颜色填充-色块箭头海报111",
+              "state": false,
+              "link": "http://aisoubai.com/content/it/Web"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+/*start 登陆*/
+.login{ position: fixed; left: 0; top: 0; display: flex; width: 100%; height: 100%; align-items:center; justify-content: center;background-color:rgba(0,0,0,0.4);}
+.loginCen{ width: 456px; background-color: #f5f5f5; border-radius: 5px; border: 1px solid #080807;}
+.loginClose{ width: 416px; margin: 16px auto 0; text-align: right;}
+.loginClose span{ font-family: iconfont; cursor: pointer;}
+.loginLogo{
+    text-align: center; font-family: iconfont; font-size: 44px; color: #FFD200;
+}
+.loginList{ padding-bottom: 28px;}
+.loginTip{ position: relative; width: 416px; margin: 16px auto 28px; text-align: center; font-size: 14px; color: #979A9A;}
+.loginTip span{ position: relative; background-color: #f5f5f5; padding: 0 10px;}
+.loginTip:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 7px;
+    height: 1px;
+    width: 100%;
+    background-color: #D8D8D8;
+}
+.loginList ul{
+    text-align: center;
+}
+.loginList ul li{
+    display: inline-block;
+    width: 64px;
+    margin: 0 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.loginList ul li a{
+    display: block;
+    cursor: pointer;
+}
+.loginList ul li a i{
+    display: block;
+    height: 64px;
+    line-height: 64px;
+    width: 64px;
+    border: 1px solid #D8D8D8;
+    border-radius: 50px;
+    font-family: iconfont;
+    font-size: 28px;
+}
+.loginList ul li a span{
+    display: block;
+    padding-top: 12px;
+    font-size: 14px;
+    color: #979A9A;
+}
+.loginList ul li:hover:nth-of-type(1) a i{ color: #fff; background-color: #1296DB; border: 1px solid #1296DB;}
+.loginList ul li:hover:nth-of-type(1) a span{ color: #1296DB;}
+.loginList ul li:hover:nth-of-type(2) a i{ color: #fff; background-color: #23BF36; border: 1px solid #23BF36;}
+.loginList ul li:hover:nth-of-type(2) a span{ color: #23BF36;}
+.loginList ul li:hover:nth-of-type(3) a i{ color: #fff; background-color: #DA2A2E; border: 1px solid #DA2A2E;}
+.loginList ul li:hover:nth-of-type(3) a span{ color: #DA2A2E;}
+.loginList ul li:hover:nth-of-type(4) a i{ color: #fff; background-color: #FFD200; border: 1px solid #FFD200;}
+.loginList ul li:hover:nth-of-type(4) a span{ color: #FFD200;}
+.loginPhone{ width: 416px; margin: 0 auto;}
+.loginTab{ overflow: hidden;}
+.loginTab li{
+    position: relative;
+    float: left;
+    width: 208px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #979A9A;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid #d8d8d8;
+}
+.loginTab li.on{ color: #FFD200;}
+.loginTab li.on:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 3px;
+    width: 100%;
+    background-color: #FFD200;
+}
+/*end 登录*/
+
+/*start 手机登录注册*/
+.peRestList{ width: 416px; margin: 20px auto;}
+.peRestList li{ position: relative; margin-bottom: 12px; overflow: hidden;}
+.peRestList li>i.comFamily{
+    position: absolute;
+    left: 4px;
+    top: 10px;
+}
+.comLeftInput{ text-indent: 26px; width: 100%; font-size: 14px;}
+.comLeftInput:focus{ border-bottom: 1px solid #FFD200;}
+.loginTips{ padding-top: 8px; text-indent: 26px; color: #f11533;}
+.peRestList li input.lnProTips{ border-bottom: 1px solid #f11533;}
+.peRestList li input{ display: block; line-height: 36px; border: 0; background-color: #f5f5f5; border-bottom: 1px solid #d8d8d8;}
+.peRestList li input.regBtn{ width: 224px; height: 36px; line-height: 36px; font-size: 14px; color: #FAFAFA; background: linear-gradient(to right, #FFD200 , #FF7C00);}
+.imgVecode{ position: absolute; right: 0; top: 0; display: block; width: 135px; height: 36px; line-height: 36px; cursor: pointer;}
+.logonCount{ position: absolute; right: 0; top: 0; display: block; width: 135px; height: 36px; line-height: 36px; text-align: center; cursor: pointer; color: #FFD200;}
+
+.peRestList li:last-child{ border: 0;}
+.pheBtn{ padding-top: 22px; padding-bottom: 12px;}
+.comLoginBtn{ width: 70%; margin: 0 auto; background-color: bisque; cursor: pointer; border-radius: 5px !important;}
+
+.otherLogin{ height: 22px; line-height: 22px; margin-bottom: 28px; overflow: hidden; text-align: right;}
+.otherLogin strong{ float: left; cursor: pointer;}
+.otherLogin a{ font-family: iconfont; display: inline-block; font-size: 20px; margin-left: 16px; color: #d8d8d8;}
+.otherLogin a:hover:nth-of-type(1){ color: #1296DB;}
+.otherLogin a:hover:nth-of-type(2){ color: #23BF36;}
+.otherLogin a:hover:nth-of-type(3){ color: #DA2A2E;}
+.resAgreement{ margin: 6px 0 16px;}
+.resAgreement a{ color: #FFD200;}
+.resAgreement label{ cursor: pointer; overflow: hidden;}
+.resAgreement label input{ width: 20px; float: left;}
+.proTipsPro{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 220px;
+    height: 50px;
+    margin-left: -110px;
+    margin-top: -25px;
+    line-height: 50px;
+    background-color: #FF7C00;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+/*end 手机登录注册*/
+
