@@ -19,12 +19,14 @@
           <span class="icon-dacha" @click="opnClose()"></span>
         </p>
         <h5 class="opinionTitle">意见反馈</h5>
-        <textarea class="opinionTextarea comOpinionWid" placeholder="请填写您的建议意见"></textarea>
+        <textarea class="opinionTextarea comOpinionWid" placeholder="请填写您的建议意见" v-model="opnText"></textarea>
+        <p class="opinionTips" v-if="opnTextHide">请输入您的建议意见</p>
         <div class="comOpinionWid opiniondContact">
           <span>QQ号码:</span>
-          <input type="number" placeholder="请填写您的QQ号码，以便我们为您提供更好的服务" oninput="if(value.length>15)value=value.slice(0,15)"/>
+          <input type="number" placeholder="请填写您的QQ号码，以便我们为您提供更好的服务" v-model="opnInput" oninput="if(value.length>15)value=value.slice(0,15)"/>
+          <p class="opinionTips" v-if="opnInputHide">请输入您的QQ号码</p>
         </div>
-        <input type="button" value="提交" class="opinionSub"/>
+        <input type="button" value="提交" class="opinionSub" @click="opnSub"/>
       </div>
     </div>
     <search v-if="hideSrh" @goBack="goBack" :mesCont="parentMesCont"></search>
@@ -63,7 +65,11 @@ export default {
       parentMesCont: '',
       hideSrh: false,
       hideHis: false,
-      uiLabel: ''
+      uiLabel: '',
+      opnText: this.opnText,
+      opnInput: this.opnInput,
+      opnTextHide: false,
+      opnInputHide: false
     }
   },
   components: {
@@ -120,6 +126,18 @@ export default {
       this.curView = 'Index'
       this.hideSrh = bool
       this.hideHis = bool
+    },
+    opnSub () {
+      if (this.opnText === '' || this.opnText === undefined) {
+        this.opnTextHide = true
+      } else {
+        this.opnTextHide = false
+        if (this.opnInput === '' || this.opnInput === undefined) {
+          this.opnInputHide = true
+        } else {
+          this.opnInputHide = false
+        }
+      }
     }
   }
 }
@@ -158,9 +176,11 @@ export default {
 .opinionTitle{ margin-bottom: 16px; font-size: 18px; color: #fafafa; text-align: center;}
 .opinionTextarea{ display: block; height: 75px; padding: 10px; width: 450px; line-height: 22px; border: 1px solid #080807; border-radius: 5px; outline: none; resize: none; color: #FAFAFA; background-color: #1E1D1B;}
 .opinionTextarea:focus{ border: 1px solid #FFD200;}
-.opiniondContact{ position: relative; margin-top: 12px; margin-bottom: 28px;height: 40px; line-height: 40px;}
+.opiniondContact{ position: relative; margin-top: 12px; margin-bottom: 28px;}
 .opiniondContact span{ position: absolute;left: 0; top: 0; display: block; width: 80px; text-align: center; line-height: 42px; color: #fafafa;}
 .opiniondContact input{ width: 390px;height: 40px; line-height: 40px; padding-left: 80px; border: 1px solid #080807; border-radius: 5px; overflow: hidden; color: #FAFAFA; background-color: #1E1D1B;}
 .opiniondContact input:focus{ border: 1px solid #FFD200;}
 input.opinionSub{ display: block; width: 224px; height: 36px; line-height: 36px; margin: 0 auto; font-size: 14px; color: #FAFAFA; background: linear-gradient(to right, #FFD200 , #FF7C00); cursor: pointer; border: 0; border-radius: 100px;}
+input.opinionSub:hover{ background: linear-gradient(to right, #ffde0f , #ff9622);}
+.opinionTips{ width: 450px; margin: 4px auto 0; color: #f11533;}
 </style>

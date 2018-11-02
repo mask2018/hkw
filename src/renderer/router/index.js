@@ -23,6 +23,7 @@ import Course from '@/components/index/Course'
 import UiDesign from '@/components/index/UiDesign'
 import Soft from '@/components/Soft'
 import Uidck from '@/components/Uidck'
+import PayPro from '@/components/PayPro'
 
 Vue.use(Router)
 
@@ -147,6 +148,11 @@ export default new Router({
       path: '/components/Uidck',
       name: 'Uidck',
       component: Uidck
+    },
+    {
+      path: '/components/PayPro',
+      name: 'PayPro',
+      component: PayPro
     },
     {
       path: '*',

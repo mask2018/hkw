@@ -91,7 +91,6 @@ app.on('ready', () => {
   if (process.env.NODE_ENV === 'production') autoUpdater.checkForUpdates()
 })
  */
-
 ipc.on('newClose', function (event, arg) {
   if (arg === 'close') {
     mainWindow.close()
@@ -157,5 +156,32 @@ ipc.on('newClose1', function (event, arg) {
   }
   if (arg === 'small') {
     newWly.minimize()
+  }
+})
+
+let newPay
+let numPay = 1
+ipc.on('newPayPro', function (event, arg) {
+  if (numPay === 1) {
+    newPay = new BrowserWindow({
+      width: 456,
+      height: 697,
+      frame: false
+    })
+    newPay.loadURL('http://localhost:9080' + arg)
+
+    newPay.on('closed', () => {
+      newPay = null
+      numPay = 1
+    })
+    numPay++
+  } else {
+    newPay.loadURL('http://localhost:9080' + arg)
+    newPay.show()
+  }
+})
+ipc.on('newClose2', function (event, arg) {
+  if (arg === 'close') {
+    newPay.close()
   }
 })

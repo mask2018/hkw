@@ -32,7 +32,7 @@ export default {
 </script>
 
 <style>
-@import "//at.alicdn.com/t/font_880923_hl22eqn1dm4.css";
+@import "//at.alicdn.com/t/font_880923_grnlh5hggrs.css";
 .comFamily{ font-family: iconfont;}
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, figcaption, figure, fieldset, legend, button, input, textarea, th, td {
   margin: 0;
