@@ -18,7 +18,7 @@
           <dt><img src="/static/images/loginIcon.png"/></dt>
           <dd>讲师：阿角</dd>
         </dl>
-        <div class="rightRec comWid">为自己充值</div>
+        <div class="rightRec comWid" @click="openBtn(2)">为自己充值</div>
         <div class="labelTitle comWid">
           <ul class="clearfix">
             <li v-for='(data,key,index) in tabs' :key='data.id' v-bind:class='{on:index==styl}' @click="tabChange(data.tab, index)" v-if="data.state">
@@ -84,6 +84,14 @@ export default {
     },
     openMain () {
       ipcRenderer.send('openMain', 'show')
+    },
+    openBtn (soId) {
+      let routeData = this.$router.resolve({
+        name: 'PayPro',
+        params: { id: soId },
+        query: { recId: soId, name: 'one' }
+      })
+      ipcRenderer.send('newPayPro', routeData.href)
     },
     headSmall: function () {
       ipcRenderer.send('newClose1', 'small')
@@ -196,6 +204,7 @@ export default {
           height: 40px; line-height: 40px; border-radius: 50px; font-size: 14px; color: #fafafa; text-align: center;
           background: linear-gradient(to right, #FFD200 , #FF7C00); cursor: pointer;
         }
+        .rightRec:hover{ background: linear-gradient(to right, #ffde0f , #ff9622);}
         .labelTitle{
           margin-top: 16px; margin-bottom: 8px; height: 38px; padding: 0 4px;
           background-color: #1E1D1B; border-radius: 5px; font-size: 14px; color: #979A9A;

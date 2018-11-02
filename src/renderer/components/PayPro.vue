@@ -46,7 +46,7 @@
     </div>
     <div class="paySuc" v-if="paySucHide">
       <div class="paySucAll">
-        <p class="paySucTop"><span class="comFamily icon-dacha" @click="headClose()"></span></p>
+        <p class="paySucTop"><span class="comFamily icon-dacha" @click="goStu()"></span></p>
         <div class="paySucMain">
           <dl class="paySucTip">
             <dt><i class="comFamily icon-chongzhichenggong1"></i></dt>
@@ -74,7 +74,7 @@ export default {
         {mony: '399', time: '无限观看', cont: '一年内新开VIP 可以无限观看', label: '不定期涨价'}
       ],
       active: '0',
-      paySucHide: false
+      paySucHide: true
     }
   },
   created: function () {
@@ -82,6 +82,9 @@ export default {
   },
   methods: {
     headClose: function () {
+      ipcRenderer.send('newClose2', 'close')
+    },
+    goStu () {
       ipcRenderer.send('newClose2', 'close')
     },
     category (index) {

@@ -23,13 +23,15 @@ function createWindow () {
    * Initial window options
    */
   mainWindow = new BrowserWindow({
+    width: 1180,
     height: 720,
+    minWidth: 1180,
+    minHeight: 720,
     useContentSize: true,
     webPreferences: {
       webSecurity: false,
       nativeWindowOpen: true
     },
-    width: 1180,
     frame: false
   })
   // mainWindow.webContents.on('new-window', (event, url, frameName, disposition, options, additionalFeatures) => {
@@ -121,8 +123,10 @@ let num = 1
 ipc.on('newRouter', function (event, arg) {
   if (num === 1) {
     newWly = new BrowserWindow({
-      width: 650,
-      height: 397,
+      width: 1000,
+      height: 610,
+      minWidth: 650,
+      minHeight: 370,
       frame: false
     })
     newWly.loadURL('http://localhost:9080' + arg)
@@ -166,6 +170,7 @@ ipc.on('newPayPro', function (event, arg) {
     newPay = new BrowserWindow({
       width: 456,
       height: 697,
+      resizable: false,
       frame: false
     })
     newPay.loadURL('http://localhost:9080' + arg)

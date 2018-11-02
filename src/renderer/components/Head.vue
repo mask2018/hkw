@@ -6,11 +6,11 @@
     <div class="search">
       <div class="searchCen clearfix">
         <div class="searc-bar">
-          <input type="text" class="searchInput" v-model="srhInput" placeholder="请输入教程" @blur.prevent="inputBlue()" @focus.prevent="inputFocus()"/>
+          <input type="text" class="searchInput" v-model.trim="srhInput" placeholder="请输入教程" @blur.prevent="inputBlue()" @focus.prevent="inputFocus()"/>
           <div class="record" v-show="recordHide">
-            <div class="recordUnd" v-if="HistoryList.length === 0">近期并没有过搜索记录</div>
+            <div class="recordUnd" v-if="recList.length === 0">近期并没有过搜索记录</div>
             <div class="recordList" v-else>
-              <p v-for="data,index in HistoryList" v-if="index<5" @click="datRec(data)">{{data}}</p>
+              <p v-for="data,index in recList" v-if="index<5" @click="datRec(data)">{{data}}</p>
               <p class="clearRecord"><span @click="localClear()">清空记录</span></p>
             </div>
           </div>
@@ -154,8 +154,7 @@ export default {
         {soId: 1, watch: '观看至20%', title: '字体设计好设计画笔啊4', time: '53分03秒', label: 'C4D', bgColor: 'bgColor13'},
         {soId: 1, watch: '观看至20%', title: '字体设计好设计画笔啊5', time: '53分03秒', label: 'C4D', bgColor: 'bgColor13'}
       ],
-      recList: [],
-      HistoryList: localStorage.getItem('HistoryList') || []
+      recList: localStorage.getItem('HistoryList') || []
     }
   },
   components: {
@@ -214,24 +213,21 @@ export default {
     },
     seacchBtn (data, sty, num) {
       var that = this
-      console.log(that.HistoryList)
-      if (that.HistoryList !== null) {
-        if (that.HistoryList.length > 0) {
-          if (that.HistoryList.indexOf(data) !== -1) {
-            that.HistoryList.splice(that.HistoryList.indexOf(data), 1)
-            that.HistoryList.unshift(data)
-          } else { // 没有相同的 添加
-            that.HistoryList.unshift(data)
-          }
-        } else { // 没有数据 添加
-          that.HistoryList.unshift(data)
-        }
-        if (this.HistoryList.length > 6) { // 保留六个值
-          that.HistoryList.pop()
-        }
-        localStorage.setItem('HistoryList', JSON.stringify(that.HistoryList))
-      }
       that.$emit('hdSrh', {data: data, state: sty, num: num})
+      if (that.srhInput !== '' && data !== '' && that.srhInput) {
+        data = data.replace(/(^\s*)|(\s*$)/g, '')
+        if (that.recList.length > 0) {
+          if (that.recList.indexOf(data) !== -1) {
+            that.recList.splice(that.recList.indexOf(data), 1)
+            that.recList.unshift(data)
+          } else { // 没有相同的 添加
+            that.recList.unshift(data)
+          }
+        } else {
+          that.recList.unshift(data)
+        }
+        localStorage.setItem('HistoryList', JSON.stringify(that.recList))
+      }
     },
     historyBtn (sty, num) {
       this.$emit('hdSrh', {state: sty, num: num})
@@ -242,21 +238,23 @@ export default {
       this.recordHide = false
     },
     inputBlue () {
+      var that = this
       setTimeout(function () {
-        this.recordHide = false
+        that.recordHide = false
       }, 200)
     },
     inputFocus () {
       var that = this
       that.recordHide = true
-      if (localStorage.getItem('HistoryList')) {
-        // that.HistoryList = localStorage.getItem('HistoryList').split(',')
+      if (JSON.parse(localStorage.getItem('HistoryList'))) {
+        that.recList = JSON.parse(localStorage.getItem('HistoryList'))
       }
-      console.log(localStorage.getItem('HistoryList'))
     },
     localClear () {
-      this.recordHide = false
-      localStorage.clear()
+      var that = this
+      that.recordHide = false
+      localStorage.removeItem('HistoryList')
+      that.recList = []
     },
     linkAll (soId) {
       let routeData = this.$router.resolve({

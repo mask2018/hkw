@@ -54,7 +54,7 @@ export default {
       .then(function (response) {
         _this.category = response.data.category
         _this.category[1].items.filter(function (v, i) {
-          if (_this.uiLabel === '') {
+          if (_this.uiLabel === '' || _this.uiLabel === undefined) {
             _this.category[1].items[0].active = true
           } else {
             if (_this.uiLabel === _this.category[1].items[i].name) {
