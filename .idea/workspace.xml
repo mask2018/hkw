@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c47436-781a-40d8-af93-5f4e696380c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/index.js" afterPath="$PROJECT_DIR$/src/main/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/App.vue" afterPath="$PROJECT_DIR$/src/renderer/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/components/PayPro.vue" afterPath="$PROJECT_DIR$/src/renderer/components/PayPro.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/components/Soft.vue" afterPath="$PROJECT_DIR$/src/renderer/components/Soft.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/components/Uidck.vue" afterPath="$PROJECT_DIR$/src/renderer/components/Uidck.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/components/child/ChildIndex.vue" afterPath="$PROJECT_DIR$/src/renderer/components/child/ChildIndex.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/components/login/Login.vue" afterPath="$PROJECT_DIR$/src/renderer/components/login/Login.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/router/index.js" afterPath="$PROJECT_DIR$/src/renderer/router/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -96,8 +88,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="209" column="0" lean-forward="true" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+            <state relative-caret-position="385">
+              <caret line="196" column="3" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -106,10 +98,10 @@
       <file leaf-file-name="Login.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/components/login/Login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="916">
-              <caret line="94" column="31" lean-forward="false" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
+            <state relative-caret-position="1950">
+              <caret line="78" column="4" lean-forward="true" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
               <folding>
-                <element signature="e#1544#1598#0" expanded="true" />
+                <element signature="e#1541#1595#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -365,12 +357,12 @@
       <workItem from="1540181963774" duration="31174000" />
       <workItem from="1540283621470" duration="24566000" />
       <workItem from="1540369557277" duration="68623000" />
-      <workItem from="1540776396115" duration="137497000" />
+      <workItem from="1540776396115" duration="138086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="375791000" />
+    <option name="totallyTimeSpent" value="376380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -853,18 +845,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/login/Login.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="916">
-          <caret line="94" column="31" lean-forward="false" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
+        <state relative-caret-position="1950">
+          <caret line="78" column="4" lean-forward="true" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
           <folding>
-            <element signature="e#1544#1598#0" expanded="true" />
+            <element signature="e#1541#1595#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="209" column="0" lean-forward="true" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+        <state relative-caret-position="385">
+          <caret line="196" column="3" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="3" />
           <folding />
         </state>
       </provider>

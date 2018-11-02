@@ -7,7 +7,7 @@
         <p class="loginTip"><span>登录立即学习</span></p>
         <ul class="clearfix">
           <li>
-            <a href="javascript:;"  @click="linkAll(3)">
+            <a href="javascript:;"  @click="qqLogin">
               <i class="icon-QQ"></i>
               <span>QQ登录</span>
             </a>
@@ -75,6 +75,15 @@ export default {
     PhoneLogin,
     PhoneRegister
   },
+  mounted () {
+    ipcRenderer.on('reply', (e, data) => {
+      console.log(data)
+      let httpCode = data.request_code[0]
+      if (httpCode === '1') {
+        alert(data.token[0])
+      }
+    })
+  },
   methods: {
     tabChange (tabItem, num) {
       this.styl = num
@@ -91,18 +100,9 @@ export default {
     logCloseBtn () {
       this.$emit('controlLogin', false)
     },
-    linkAll (soId) {
+    qqLogin () {
       ipcRenderer.send('qqLogin', {url: 'https://huke88.com/auth/callback?authclient=qq&loginSuccessRedirectUri=https%3A%2F%2Fhuke88.com%2F'})
     }
-  },
-  mounted () {
-    ipcRenderer.on('reply', (e, data) => {
-      console.log(data)
-      let httpCode = data.request_code[0]
-      if (httpCode === '1') {
-        alert(data.token[0])
-      }
-    })
   }
 }
 </script>
