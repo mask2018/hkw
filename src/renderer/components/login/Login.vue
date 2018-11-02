@@ -7,13 +7,13 @@
         <p class="loginTip"><span>登录立即学习</span></p>
         <ul class="clearfix">
           <li>
-            <a href="javascript:;">
+            <a href="javascript:;"  @click="linkAll(3)">
               <i class="icon-QQ"></i>
               <span>QQ登录</span>
             </a>
           </li>
           <li>
-            <a href="javascript:;">
+            <a href="https://huke88.com/auth/callback?authclient=qq&loginSuccessRedirectUri=https%3A%2F%2Fhuke88.com%2F" target="_blank">
               <i class="icon-weixin"></i>
               <span>微信登录</span>
             </a>
@@ -47,6 +47,7 @@
 <script>
 import PhoneLogin from '@/components/login/PhoneLogin'
 import PhoneRegister from '@/components/login/PhoneRegister'
+var ipcRenderer = require('electron').ipcRenderer
 export default {
   name: 'login',
   data () {
@@ -89,7 +90,19 @@ export default {
     },
     logCloseBtn () {
       this.$emit('controlLogin', false)
+    },
+    linkAll (soId) {
+      ipcRenderer.send('qqLogin', {url: 'https://huke88.com/auth/callback?authclient=qq&loginSuccessRedirectUri=https%3A%2F%2Fhuke88.com%2F'})
     }
+  },
+  mounted () {
+    ipcRenderer.on('reply', (e, data) => {
+      console.log(data)
+      let httpCode = data.request_code[0]
+      if (httpCode === '1') {
+        alert(data.token[0])
+      }
+    })
   }
 }
 </script>

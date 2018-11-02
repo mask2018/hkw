@@ -1,6 +1,5 @@
 <template>
   <div class="Uidck allWidth">
-    <p style="color: #fff;">{{uiLabel}}</p>
     <div class="spanAct"><span v-for='(item,index) in condition' :value="item.identity">{{item.name}} <i @click="delFn(index)">×</i></span></div>
     <div class="nav">
       <div class="navCen" v-for='(data, index) in category' :key="data.id">
@@ -76,7 +75,6 @@ export default {
       var item = this.category[index].items
       var that = this
       item.filter(function (v, i) {
-        console.log(i)
         if (i === key) {
           v.active = true
           if (item[i].identity > 1) {

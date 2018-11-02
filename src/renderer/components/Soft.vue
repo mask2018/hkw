@@ -111,15 +111,15 @@ export default {
         background-color: #282828; color: #fff;
         .softListAll{
           position: relative;
-          padding: 20px; overflow: hidden;
+          padding: 20px 28px; overflow: hidden;
           .softListImg{
-            float: left; width: 96px; height: 96px;
-            img{ width: 96px; height: 96px;}
+            float: left; width: 80px; height: 80px;
+            img{ width: 80px; height: 80px;}
           }
           .softListCen{
-            margin-left: 120px;
+            margin-left: 100px;
             .softListTitle{
-               line-height: 36px; margin: 10px 0 15px; font-size: 18px;
+               line-height: 36px; margin: 2px 0 15px; font-size: 18px;
               a{
                 position: relative; color: #fff;
                 i{

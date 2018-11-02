@@ -201,7 +201,7 @@ table{
   .allWidth{ width: 1020px;}
 }
 @media only screen and (max-width:1200px){
-  .allWidth{ width: 815px;}
+  .allWidth{ width: 1023px;}
 }
 @media only screen and (max-width:995px){
   .allWidth{ width: 605px;}

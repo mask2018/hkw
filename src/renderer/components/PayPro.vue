@@ -46,7 +46,7 @@
     </div>
     <div class="paySuc" v-if="paySucHide">
       <div class="paySucAll">
-        <p class="paySucTop"><span class="comFamily icon-dacha" @click="goStu()"></span></p>
+        <p class="paySucTop"><span class="comFamily icon-dacha" @click="closeStu()"></span></p>
         <div class="paySucMain">
           <dl class="paySucTip">
             <dt><i class="comFamily icon-chongzhichenggong1"></i></dt>
@@ -55,7 +55,7 @@
               <p>您已成功购买 <span>全站通VIP</span></p>
             </dd>
           </dl>
-          <input type="button" value="前往学习" class="paySucBut" @click="headClose()"/>
+          <input type="button" value="前往学习" class="paySucBut" @click="goStu()"/>
         </div>
         <p class="paySucDet">充值结果受网络等多种因素影响，请耐心等待，一般会在5分钟内到账</p>
       </div>
@@ -79,13 +79,22 @@ export default {
   },
   created: function () {
     this.$emit('comHead', false)
+    console.log(this.$route.query.recId)
   },
   methods: {
     headClose: function () {
       ipcRenderer.send('newClose2', 'close')
     },
+    closeStu () {
+      this.paySucHide = false
+    },
     goStu () {
       ipcRenderer.send('newClose2', 'close')
+      if (this.$route.query.recId === '1') {
+        console.log(1)
+      } else if (this.$route.query.recId === '2') {
+        console.log(2)
+      }
     },
     category (index) {
       this.active = index

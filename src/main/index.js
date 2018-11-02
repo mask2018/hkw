@@ -1,6 +1,6 @@
 'use strict'
 
-import { app, BrowserWindow } from 'electron'
+import { app, BrowserWindow, shell } from 'electron'
 
 const ipc = require('electron').ipcMain
 
@@ -149,6 +149,9 @@ ipc.on('newRouter', function (event, arg) {
 })
 
 ipc.on('newClose1', function (event, arg) {
+  if (arg === 'fix') {
+    newWly.alwaysOnTop()
+  }
   if (arg === 'close') {
     newWly.close()
   }
@@ -189,4 +192,36 @@ ipc.on('newClose2', function (event, arg) {
   if (arg === 'close') {
     newPay.close()
   }
+})
+
+ipc.on('qqLogin', function (event, arg) {
+  const qqLoginWindow = new BrowserWindow({
+    width: 750,
+    height: 450,
+    resizable: false,
+    minimizable: false,
+    maximizable: false,
+    webPreferences: {
+      devTools: false
+    }
+  })
+
+  qqLoginWindow.setMenu(null)
+
+  qqLoginWindow.loadURL(arg.url)
+
+  qqLoginWindow.webContents.on('new-window', (event, url) => {
+    event.preventDefault()
+    shell.openExternal(url)
+  })
+  const content = qqLoginWindow.webContents
+
+  content.on('will-navigate', (e, status, url) => {
+    content.on('did-get-response-details', (e, status, url, originalURL, httpResponseCode, requestMethod, referrer, header) => {
+      if (httpResponseCode === 200) {
+        event.sender.send('reply', header)
+        qqLoginWindow.close()
+      }
+    })
+  })
 })

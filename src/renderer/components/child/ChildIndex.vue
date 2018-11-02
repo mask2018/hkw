@@ -3,6 +3,7 @@
     <div class="childHead">
       <span class="openMain" @click="openMain()">打开主界面</span>
       <div class="headClose">
+        <span class="small icon-guding" @click="headFix()"></span>
         <span class="small icon-suoxiao1" @click="headSmall()"></span>
         <span class="min icon-huanyuan" @click="headMin()" v-if="minIcon"></span>
         <span class="max icon-fangda" @click="headMax()" v-if="maxIcon"></span>
@@ -92,6 +93,9 @@ export default {
         query: { recId: soId, name: 'one' }
       })
       ipcRenderer.send('newPayPro', routeData.href)
+    },
+    headFix: function () {
+      ipcRenderer.send('newClose1', 'fix')
     },
     headSmall: function () {
       ipcRenderer.send('newClose1', 'small')

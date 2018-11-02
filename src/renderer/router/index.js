@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Login from '@/components/login/Login'
+import ThirdParty from '@/components/login/ThirdParty'
+import ThirdParty1 from '@/components/login/ThirdParty1'
 import Register from '@/components/login/Register'
 import PhoneLogin from '@/components/login/PhoneLogin'
 import PhoneRegister from '@/components/login/PhoneRegister'
@@ -43,6 +45,16 @@ export default new Router({
       path: '/components/login/Login',
       name: 'Login',
       component: Login
+    },
+    {
+      path: '/components/login/ThirdParty',
+      name: 'ThirdParty',
+      component: ThirdParty
+    },
+    {
+      path: '/components/login/ThirdParty1',
+      name: 'ThirdParty1',
+      component: ThirdParty1
     },
     {
       path: '/components/All',
